@@ -20,9 +20,10 @@ const Navbar = () => {
     <>
       <div className='nav-container' >
         <h2 className='logo' >Vn.</h2>
-    display: none;
    
-        <h2 onClick={()=>setismenuopen(true)} ><MdMenu/></h2>
+       {ismenuopen ? '':    
+        <h2 onClick={()=>setismenuopen(true)} className='menu-icon' ><MdMenu/></h2>
+       }
         <ul  className={ismenuopen ? 'side-bar ':'nav-items'} >
           
         {ismenuopen && (
