@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+     margin:  1.8rem 5.8rem ;
+     max-height: 50px;
+     
+}
+.cancel-icon{
+    text-align: right;
+}
+.logo{
+    color: rgb(71, 71, 170);
+     
+}
+.menu-icon{
+    display: none;
+}
+.nav-items ,.side-bar {
+    display: flex;
+    /* text-align: center; */
+    max-width: 60%;
+}
+.nav-items{
+    justify-content: space-evenly;
+
+
+}
+.side-bar{
+    gap: 1.2rem;
+    flex-direction: column;
+    height: 100vh;
+    width: 80%;
+    background-color: yellow;
+}
+.nav-items li , .side-bar li{
+      color: beige;
+    list-style: none;
+    padding: 0 2rem;
+
+    
+
+}
+
+.git-btn{
+    background-color: rgba(7, 76, 179, 0.452);
+    padding: .2rem;
+    border: 2px solid rgb(84, 84, 170);
+    border-radius: .5rem;
+    
+}
+
+
+@media screen and (max-width: 770px) {
+  .nav-container {
+    background-color: red;
+    margin: .6rem;
+
+  } 
+
+/* .nav-items{
+    /* display: none; */
+    /* flex-direction: column;
+    gap: 1.2rem;
+    background-color: antiquewhite;
+    overflow: visible;
+    text-align: left; */
+/* } */ 
+.nav-items{
+    display: none;
+}
+.menu-icon{
+    display: block;
+    color: blue;
+}
+
+.git-btn{
+    display: none;
+}
+    
+}
