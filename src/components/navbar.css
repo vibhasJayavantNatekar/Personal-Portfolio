@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: space-between ;
      margin:  1.8rem 5.8rem ;
-     max-height: 50px;
+        height: 2.8rem;
      
 }
 .cancel-icon{
@@ -25,10 +25,12 @@
 .nav-items ,.side-bar {
     display: flex;
     /* text-align: center; */
-    max-width: 60%;
+    /* max-height: 20px; */
 }
 .nav-items{
     justify-content: space-evenly;
+    max-height: 20px;
+
 
 
 }
@@ -37,7 +39,7 @@
     flex-direction: column;
     height: 100vh;
     width: 80%;
-    background-color: yellow;
+    background-color: #000000b3;
 }
 .nav-items li , .side-bar li{
       color: beige;

@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
 import Projects from './components/Projects'
 import About from './components/About'
 import Resume from './components/Resume'
+import Herosection from './components/herosection'
 
 function App() {
 
@@ -11,9 +12,10 @@ function App() {
     <>
 
   
-
+     
       <BrowserRouter>
          <Navbar/>
+         <Herosection/>
         <Routes>
           <Route path="projects" element={<Projects/>} />
           <Route path="about" element={<About/>} />

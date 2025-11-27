@@ -34,7 +34,7 @@ const Navbar = () => {
           <NavLink to={'/'}><li> <GoHome/> Home</li></NavLink>
           <NavLink to={'/projects'}><li> <GoProject/> Project</li></NavLink>
           <NavLink to={'/about'}><li > <BiUser/> About me</li></NavLink>
-            <NavLink to={'/about'}><li > <GrNotes/> Resume</li></NavLink>
+            <NavLink to={'/resume'}><li > <GrNotes/> Resume</li></NavLink>
           <NavLink to={'#'}> <li className='git-btn' >  <IoGitBranchSharp/> </li> </NavLink>
 
 
