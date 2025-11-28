@@ -7,6 +7,7 @@
    
     /* border: 5px solid green; */
 
+
 }
 .about-wrapper .about-container{
     display: flex;
@@ -14,6 +15,7 @@
     /* flex-wrap: wrap; */
    
     height: 70vh;
+        
 }
 .my-self{
     padding: 1.8rem;
@@ -36,7 +38,9 @@
     line-height: 1.8;
     font-style: oblique;
 }
-
+/* .profile-avatar{
+    box-shadow: 2px 2px 2px beige;
+} */
 
 
 @media screen and (max-width: 770px) {
@@ -47,6 +51,7 @@
 }
 .about-wrapper .about-container {
     flex-wrap: wrap;
+    height: fit-content;
 }
 
 .profile-avatar{

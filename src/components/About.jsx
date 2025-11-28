@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import ProfileImg from '../assets/profile.png'
+import SkillSets from './SkillSets'
 
 const About = () => {
   return (
@@ -13,6 +14,8 @@ const About = () => {
           </div>
           <img src={ProfileImg} alt="" className='profile-avatar' />
         </div>
+
+        <SkillSets/>
       </div>
     </>
   )
