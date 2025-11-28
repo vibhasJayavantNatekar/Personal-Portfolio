@@ -6,6 +6,7 @@
 .skillsets-wrapper{
     height: 90vh;
     margin:  2rem  ;
+    height: fit-content;
 }
 .skill-container{
     display: flex;

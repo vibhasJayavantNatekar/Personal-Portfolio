@@ -17,6 +17,7 @@ function App() {
          <Navbar/>
          <Herosection/>
          <About/>
+         <Projects/>
         <Routes>
           <Route path="projects" element={<Projects/>} />
           <Route path="about" element={<About/>} />
