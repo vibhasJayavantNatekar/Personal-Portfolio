@@ -24,7 +24,7 @@
 
 .project-container{
     /* height: fit-content; */
-    margin: 0 1.8rem;
+    margin: .8rem 1.8rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -68,7 +68,7 @@
     justify-content: space-evenly;
 }
 
-.btn-container button{
+.btn-container button {
         padding: .8rem;
     margin-top: .5rem;
     width: 40%;

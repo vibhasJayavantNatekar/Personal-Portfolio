@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import Inventory from '../assets/inventory-app.png'
-const Project = () => {
+const Projects = () => {
   return (
     <>
       <div className="project-wrapper">
@@ -50,4 +50,4 @@ const Project = () => {
   )
 }
 
-export default Project  
+export default Projects  

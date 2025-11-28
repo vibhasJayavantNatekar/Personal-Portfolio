@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.resume-wrapper{
+    height: 100vh;
+}
+.resume-preview {
+  width: 60%;
+  max-width: 850px;
+  background: white;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+}
+
+.resume-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+.download-btn{
+   .download-btn {
+  background: #6c47ff;
+  padding: 0.7rem 1.4rem;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+
+}

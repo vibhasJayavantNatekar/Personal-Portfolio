@@ -18,6 +18,7 @@ function App() {
          <Herosection/>
          <About/>
          <Projects/>
+         {/* <Resume/> */}
         <Routes>
           <Route path="projects" element={<Projects/>} />
           <Route path="about" element={<About/>} />
