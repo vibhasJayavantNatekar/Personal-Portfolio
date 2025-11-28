@@ -1,8 +1,20 @@
 import React from 'react'
+import './About.css'
+import ProfileImg from '../assets/profile.png'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      <div className="about-wrapper">
+        <div className="about-container">
+          <div className="my-self">
+            <h1>Know Who <span className='name'>I'M </span> </h1>
+            <p>Hi everyone! I'm <span className="name">Vibhas Natekar </span> from Maharastra , India   <br /> I'm currently pursuing <span className="name" > BCA </span> at <span className="name" >Kavi Kulguru Kalidas  Sanskrit Vishwvidylay, Ramtek </span> <br /> I build full-stack applications using <span className="name"> MongoDB , Express , React , and Node.js </span>,and I love Creating modern UIs with powerful backend logic.   </p>
+          </div>
+          <img src={ProfileImg} alt="" className='profile-avatar' />
+        </div>
+      </div>
+    </>
   )
 }
 

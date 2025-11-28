@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.about-wrapper{
+   
+    /* border: 5px solid green; */
+
+}
+.about-wrapper .about-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+   
+    height: 70vh;
+}
+.my-self{
+    padding: 1.8rem;
+     margin:0 8rem; 
+    align-items: center;
+    width: 60%;
+     
+
+
+}
+.my-self h1  {
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: bolder;
+   
+    font-size: xx-large;
+}
+.my-self p{
+    font-size: larger;
+    line-height: 1.8;
+    font-style: oblique;
+}
+
+
+
+@media screen and (max-width: 770px) {
+.my-self{
+    width: 100%;
+        padding: 1.8rem;
+    margin: 0 1rem;
+}
+.about-wrapper .about-container {
+    flex-wrap: wrap;
+}
+
+.profile-avatar{
+    width: 100%;
+    
+}
+
+    
+}
