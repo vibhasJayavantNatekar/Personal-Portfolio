@@ -31,11 +31,11 @@ const Navbar = () => {
     <MdCancel />
   </h2>
 )}
-          <NavLink to={'/'}><li> <GoHome/> Home</li></NavLink>
-          <NavLink to={'/projects'}><li> <GoProject/> Project</li></NavLink>
-          <NavLink to={'/about'}><li > <BiUser/> About me</li></NavLink>
-            <NavLink to={'/resume'}><li > <GrNotes/> Resume</li></NavLink>
-          <NavLink to={'#'}> <li className='git-btn' >  <IoGitBranchSharp/> </li> </NavLink>
+       <a href="#"> <li> <GoHome/> Home</li></a>
+       <a href="#projects"><li> <GoProject/> Project</li></a>
+          <a href="#about"><li > <BiUser/> About me</li></a>
+         <a href="#resume"> <li > <GrNotes/> Resume</li></a>
+      <a href="#"><li className='git-btn' >  <IoGitBranchSharp/> </li> </a> 
 
 
 

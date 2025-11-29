@@ -24,6 +24,9 @@
     align-self: center;
      margin-right: 10rem;
 }
+.social_icons{
+    padding-top: .3rem;
+}
 @media screen and (max-width: 770px) {
     .copy{
         margin: 0;

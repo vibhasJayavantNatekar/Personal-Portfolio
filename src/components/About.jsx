@@ -6,7 +6,7 @@ import SkillSets from './SkillSets'
 const About = () => {
   return (
     <>
-      <div className="about-wrapper">
+      <div id='about' className="about-wrapper">
         <div className="about-container">
           <div className="my-self">
             <h1 className='section-heading'>Know Who <span className='name'>I'M </span> </h1>

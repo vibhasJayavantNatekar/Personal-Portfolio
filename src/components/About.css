@@ -38,9 +38,9 @@
     line-height: 1.8;
     font-style: oblique;
 }
-/* .profile-avatar{
-    box-shadow: 2px 2px 2px beige;
-} */
+ .profile-avatar{
+ 
+} 
 
 
 @media screen and (max-width: 770px) {

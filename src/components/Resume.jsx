@@ -6,7 +6,7 @@ import Resumepdf from '../assets/resume.jpg'
 const Resume = () => {
   return (
     <>
-      <div className="resume-wrapper">
+      <div id='resume' className="resume-wrapper">
         <h1 className='section-heading' ><span className="name " >Resume</span></h1>
         <div className="resume-conatiner">
 

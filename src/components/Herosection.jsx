@@ -20,8 +20,8 @@ const Herosection = () => {
           </div>
 
           <div className="btn-container">
-            <button>Resume</button>
-           <button>Contact</button> 
+            <button onClick={()=> { document.getElementById("resume").scrollIntoView({ behavior:"smooth"}); }}>Resume</button>
+           <button onClick={()=> { document.getElementById("contact").scrollIntoView({ behavior:"smooth"}); }} >Contact</button> 
           </div>
 
         

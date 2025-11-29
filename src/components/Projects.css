@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .project-wrapper{
-    height: auto;
+    /* height: auto; */
 
 }
 .section-heading{
@@ -81,7 +81,8 @@
 .project-container{
     margin: 0.8rem;
 }
-.project-card{
-    width: 100%;
-}
+
+    .project-card {
+        width: 96%;
+    }
 }
