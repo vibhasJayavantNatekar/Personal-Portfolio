@@ -8,32 +8,27 @@ import Herosection from './components/herosection'
 import FindMe from './components/FindMe'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ParticlesBackground from './components/ParticlesBackground'
 
 function App() {
 
   return (
     <>
 
-  
+   <ParticlesBackground />
+
      
-      <BrowserRouter>
-         <Navbar/>
-         <Herosection/>
-         <About/>
-         <Projects/>
-       <Resume/> 
-       {/* <FindMe/> */}
-       <Contact/>
+        {/* Main content */}
+        <Navbar />
+        <Herosection />
+        <About />
+        <Projects />
+        <Resume />
+        <Contact />
+        <Footer />
 
-       <Footer/>
-        <Routes>
-          <Route path="projects" element={<Projects/>} />
-          <Route path="about" element={<About/>} />
-          <Route path="resume" element={<Resume/>} />
+      
 
-
-        </Routes>
-      </BrowserRouter>
 
 
     </>
