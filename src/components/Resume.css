@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 .resume-wrapper{
-    height: 100vh;
+    height: fit-content;
+    
 }
 .resume-preview {
   width: 60%;
@@ -26,7 +27,7 @@
   display: block;
   object-fit: contain;
 }
-.download-btn{
+
    .download-btn {
   background: #6c47ff;
   padding: 0.7rem 1.4rem;

@@ -1,12 +1,11 @@
 import React from 'react'
-import Skillbadge from './skillbadge'
 import { MdJavascript, MdPhp } from 'react-icons/md'
-import { SiBootstrap, SiC, SiCplusplus, SiCss3, SiExpress, SiGit, SiHtml5, SiJavascript, SiMongodb, SiNodedotjs, SiPhp, SiPostman, SiReact, SiVsco, SiVscodium } from 'react-icons/si'
+import { SiBootstrap, SiC, SiCplusplus, SiCss3, SiExpress, SiGit, SiHtml5, SiJavascript, SiMongodb, SiNodedotjs, SiOracle, SiPhp, SiPostman, SiReact, SiRender, SiVsco, SiVscodium, SiXampp } from 'react-icons/si'
 import './Skillsets.css'
 import { DiJava, DiJavascript, DiNodejs, DiPhp, DiVisualstudio } from 'react-icons/di'
 import { RiJavascriptFill } from 'react-icons/ri'
 import { VscCode } from 'react-icons/vsc'
-import { BiLogoChrome, BiLogoGithub, BiLogoVisualStudio } from 'react-icons/bi'
+import { BiLogoChrome, BiLogoGithub, BiLogoNetlify, BiLogoVisualStudio } from 'react-icons/bi'
 
 
 const SkillSets = () => {
@@ -32,9 +31,10 @@ const SkillSets = () => {
                     <h2 className='skil-badge'>  <span><SiExpress/></span> Express</h2>
 
                     <h2 className='skil-badge'>  <span><SiMongodb/></span> MongoDB</h2>
+                     <h2 className='skil-badge'>  <span><SiOracle/></span> Oracle DB</h2>
               
                       <h2 className='skil-badge'>  <span><SiCplusplus/></span> C / C++ Programming</h2>
-                      <h2 className='skil-badge'>  <span><SiPhp/></span> Javascript</h2>
+                     
 
                       <h2 className='skil-badge'>  <span><DiJava/></span> Java</h2>
                       <h2 className='skil-badge'>  <span><SiGit/></span>Git</h2>
@@ -56,6 +56,12 @@ const SkillSets = () => {
                       <h2 className='skil-badge'>  <span><BiLogoVisualStudio/></span> Vs Code</h2>
                       <h2 className='skil-badge'>  <span><BiLogoChrome/></span> Chrome </h2>
                       <h2 className='skil-badge'>  <span><BiLogoGithub/></span> GitHub </h2>
+                      <h2 className='skil-badge'>  <span><BiLogoNetlify/></span> Netlify </h2>
+                      <h2 className='skil-badge'>  <span><SiRender/></span>Render </h2>
+                      <h2 className='skil-badge'>  <span><SiXampp/></span>Xampp </h2>
+
+
+
 
 
                         </div>

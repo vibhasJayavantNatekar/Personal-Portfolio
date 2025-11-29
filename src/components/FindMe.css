@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section-wrapper{
+    margin: 1rem ;
+    height: fit-content; 
+    text-align: center;
+}
+.section-wrapper p:first-of-type {
+   
+    padding: .5rem;
+}
+
+.section-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.logo-container {
+  width: 50px;
+  height: 50px;
+  background: white;
+  color: #6c47ff; /* purple icon */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: 0.25s ease;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.logo-container:hover {
+  transform: translateY(-5px);
+  background: #6c47ff; /* purple bg on hover */
+  color: white;
+  box-shadow: 0px 4px 15px rgba(108, 71, 255, 0.4);
+}

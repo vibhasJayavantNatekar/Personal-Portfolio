@@ -10,34 +10,38 @@ const Resume = () => {
         <h1 className='section-heading' ><span className="name " >Resume</span></h1>
         <div className="resume-conatiner">
 
-      
-            <div className="btn-container">
-              <a
-                href={Resumepdf}
-                download="Vibhas_Natekar_Resume.pdf"
-                className="download-btn">
 
-                Download Resume
-              </a>
+          <div className="btn-container">
+            <a
+              href={Resumepdf}
+              download="Vibhas_Natekar_Resume.pdf"
+              className="download-btn">
 
-            </div>
+              Download Resume
+            </a>
 
-            <div className="resume-preview">
-              <img src={Resumepdf} alt="" className='resume-img' />
+          </div>
 
-            </div>
+          <div className="resume-preview">
+            <img src={Resumepdf} alt="" className='resume-img' />
 
-            <div className="btn-container">
-              <button>Download Resume</button>
+          </div>
 
-            </div>
+          <div className="btn-container">
+            <a
+              href={Resumepdf}
+              download="Vibhas_Natekar_Resume.pdf"
+              className="download-btn">
+
+              Download Resume
+            </a>
 
 
 
 
 
           </div>
-        </div>
+        </div></div>
 
       </>
       )
