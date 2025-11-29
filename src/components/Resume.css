@@ -37,3 +37,16 @@
   text-decoration: none;
 
 }
+
+@media (max-width: 770px) {
+  .resume-preview {
+    width: 90%;     /* or 100% */
+    padding: 1rem;
+  }
+
+   .resume-preview {
+    width: 90%;
+    padding: 1rem;
+  }
+}
+

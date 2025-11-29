@@ -36,7 +36,7 @@
   text-decoration: none;
 }
 
-/* Hover effect */
+
 .logo-container:hover {
   transform: translateY(-5px);
   background: #6c47ff; /* purple bg on hover */

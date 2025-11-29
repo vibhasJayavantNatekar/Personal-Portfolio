@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact-wrapper{
+    height: 100vh;
+}
+.section-container{
+    width: 100%;
+    /*  */
+}
+.section-container form{
+    width: 100%;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.section-container form input {
+    width: 30%;
+    height: 2rem;
+    border-radius: .2rem;
+    outline: none;
+    border:2px solid white;
+    background-color: transparent;
+   
+}
+.section-container form .msgbox{
+    height: 5rem;
+
+}
+
+.send_btn{
+    margin: 0 1.5rem;
+   background-color: b;
+}
+
+@media screen and (max-width: 770px) {
+
+   .section-container form input {
+        width: 90%;
+    }
+
+}
