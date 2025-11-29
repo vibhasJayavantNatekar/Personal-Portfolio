@@ -35,7 +35,7 @@ const Navbar = () => {
        <a href="#projects"><li> <GoProject/> Project</li></a>
           <a href="#about"><li > <BiUser/> About me</li></a>
          <a href="#resume"> <li > <GrNotes/> Resume</li></a>
-      <a href="#"><li className='git-btn' >  <IoGitBranchSharp/> </li> </a> 
+      <a href="https://github.com/vibhasJayavantNatekar/Inventory-App.git"><li className='git-btn' >  <IoGitBranchSharp/> </li> </a> 
 
 
 
