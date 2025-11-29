@@ -7,6 +7,7 @@ import Resume from './components/Resume'
 import Herosection from './components/herosection'
 import FindMe from './components/FindMe'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
        <Resume/> 
        {/* <FindMe/> */}
        <Contact/>
+
+       <Footer/>
         <Routes>
           <Route path="projects" element={<Projects/>} />
           <Route path="about" element={<About/>} />
