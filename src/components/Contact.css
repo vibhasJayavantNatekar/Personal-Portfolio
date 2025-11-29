@@ -29,10 +29,18 @@
     background-color: transparent;
    
 }
-.section-container form .msgbox{
-    height: 5rem;
 
+.section-container form textarea {
+  width: 30%;
+  border-radius: .2rem;
+  outline: none;
+  border:2px solid white;
+  background-color: transparent;
+  padding: .5rem;
+  color: white; /* text visible */
+  resize: none; /* optional: prevent drag resize */
 }
+
 
 .send_btn{
     margin: 0 1.5rem;
@@ -44,5 +52,8 @@
    .section-container form input {
         width: 90%;
     }
+    .section-container form textarea {
+    width: 90%;
+  }
 
 }

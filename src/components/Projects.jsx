@@ -20,8 +20,12 @@ const Projects = () => {
 
             </div>
             <div className="btn-container">
-              <button>GitHub</button>
-              <button>Live</button>
+              <button onClick={() =>
+    window.open("https://github.com/vibhasJayavantNatekar/Inventory-App.git", "_blank")
+  } >GitHub</button>
+              <button  onClick={() =>
+    window.open("https://superb-nougat-77e6bc.netlify.app/", "_blank")
+  } >Live</button>
             </div>
 
           </div>
@@ -38,8 +42,12 @@ const Projects = () => {
 
             </div>
             <div className="btn-container">
-              <button>GitHub</button>
-              <button>Live</button>
+              <button onClick={() =>
+    window.open("", "_blank")
+  }  >GitHub</button>
+              <button  onClick={() =>
+    window.open("https://naturalicecreamclonevibhas.netlify.app/", "_blank")
+  } >Live</button>
             </div>
 
           </div>

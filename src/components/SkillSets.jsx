@@ -69,7 +69,7 @@ const SkillSets = () => {
             </div>
 
 
-            {/* <h1> <SiJavascript/> <SiExpress/>  <SiMongodb/> <SiReact/> <SiHtml5/> <SiBootstrap/> <SiCss3/> <SiPostman/> <SiNodedotjs/></h1> */}
+           
 
         </>
     )
