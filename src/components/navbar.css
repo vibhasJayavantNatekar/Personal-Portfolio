@@ -1,87 +1,100 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
-     margin:  1.8rem 5.8rem ;
-        height: 2.8rem;
-     
-     
+    justify-content: space-between;
+    margin: 1.8rem 5.8rem;
+    height: 2.8rem;
+
+
 }
-.cancel-icon{
+
+.cancel-icon {
     text-align: right;
 }
-.logo{
-    color: rgb(71, 71, 170);
-     
+
+.logo {
+    color: #B983FF;
+
 }
-.menu-icon{
+
+.menu-icon {
     display: none;
 }
-.nav-items ,.side-bar {
+
+.nav-items,
+.side-bar {
     display: flex;
     /* text-align: center; */
     /* max-height: 20px; */
 }
-.nav-items{
+
+.nav-items {
     justify-content: space-evenly;
     max-height: 20px;
 
 
 
 }
-.side-bar{
+
+.side-bar {
     gap: 1.2rem;
     flex-direction: column;
     height: 100vh;
     width: 80%;
-        font-size: large;
+    font-size: large;
     background-color: #000000b3;
     z-index: 2;
 }
-.nav-items li , .side-bar li{
-      color: beige;
+
+.nav-items li,
+.side-bar li {
+    color: beige;
     list-style: none;
     padding: 0 2rem;
 
-    
+
 
 }
-.side-bar li{
+
+.side-bar li {
     margin-right: 2rem;
 }
-.git-btn{
+
+.git-btn {
     background-color: rgba(7, 76, 179, 0.452);
     padding: .2rem;
     border: 2px solid rgb(84, 84, 170);
     border-radius: .5rem;
-    
+
 }
 
 
 @media screen and (max-width: 770px) {
-  .nav-container {
-    margin: .6rem;
-        
-
-  } 
+    .nav-container {
+        margin: .6rem;
 
 
-.nav-items{
-    display: none;
-}
-.menu-icon{
-    display: block;
-    color: blue;
-}
+    }
 
-.git-btn{
-    display: none;
-}
-    
+
+    .nav-items {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        color: #B983FF;
+    }
+
+    .git-btn {
+        display: none;
+    }
+
 }

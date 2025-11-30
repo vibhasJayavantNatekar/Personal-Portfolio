@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './About.css'
 import ProfileImg from '../assets/profile.png'
 import SkillSets from './SkillSets'

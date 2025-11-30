@@ -14,7 +14,7 @@
 }
 
 .hero-container .hero-right {
-    /* border: 2px solid green; */
+  
     width: 50%;
 
 
@@ -32,12 +32,12 @@
 }
 
 .hero-container .hero-right .heading-container .title {
-    color: purple;
+    color: #B983FF;
     padding: 1.8rem 0;
 }
 
 .name {
-    color: purple;
+    color: #B983FF;
 
 }
 
@@ -51,6 +51,7 @@
     width: 40%;
     border-radius: .5rem;
     background-color: transparent;
+    border: 2px solid #9A5CFF;
 }
 
 .hero-left {
@@ -72,7 +73,7 @@
     .hero-container {
         margin: 0;
         flex-direction: column;
-        /* background-color: rgb(18, 126, 221); */
+       
         padding: 3rem 0.8rem;
         height: 90vh;
     }

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './FindMe.css'
 import { PiLinkedinLogoBold, PiLinkedinLogoFill } from 'react-icons/pi'
 import { RxGithubLogo } from 'react-icons/rx'

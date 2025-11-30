@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Projects.css'
 import Inventory from '../assets/inventory-app.png'
 import Natural from '../assets/natural_icecream.png'
@@ -43,7 +43,7 @@ const Projects = () => {
             </div>
             <div className="btn-container">
               <button onClick={() =>
-    window.open("", "_blank")
+    window.open("https://github.com/vibhasJayavantNatekar/Naturals-Ice-Cream-Website-Clone.git", "_blank")
   }  >GitHub</button>
               <button  onClick={() =>
     window.open("https://naturalicecreamclonevibhas.netlify.app/", "_blank")

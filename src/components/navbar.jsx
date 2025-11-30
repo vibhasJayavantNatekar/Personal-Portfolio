@@ -1,21 +1,18 @@
-import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
-import About from './About'
-import Resume from './Resume'
-import { DiGitBranch, DiGithubBadge } from 'react-icons/di'
-import { GiThreeBurningBalls, GiThreeKeys, GiTreeBranch } from 'react-icons/gi'
+
 import { IoGitBranchSharp } from 'react-icons/io5'
 import './navbar.css'
-import { GoHome, GoProject, GoProjectTemplate } from 'react-icons/go'
-import { HiHome } from 'react-icons/hi'
+import { GoHome, GoProject } from 'react-icons/go'
+
 import { BiUser } from 'react-icons/bi'
 import { GrNotes } from 'react-icons/gr'
-import { FaCross, FaHamburger, FaHammer } from 'react-icons/fa'
+
 import { MdCancel, MdMenu } from 'react-icons/md'
-import { CgCross } from 'react-icons/cg'
+import { useState } from 'react'
+
 
 const Navbar = () => {
   const [ismenuopen, setismenuopen] = useState(false)
+  
   return (
     <>
       <div className='nav-container' >

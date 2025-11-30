@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Footer.css'
 import { BiLogoGithub } from 'react-icons/bi'
 import { RxLinkedinLogo } from 'react-icons/rx'

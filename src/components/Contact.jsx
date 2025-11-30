@@ -1,4 +1,5 @@
-import React, { useRef } from 'react'
+
+import { useRef } from 'react';
 import './Contact.css'
 import FindMe from './FindMe'
 import emailjs from 'emailjs-com'

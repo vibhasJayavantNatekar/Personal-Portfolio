@@ -1,6 +1,6 @@
-import React from 'react'
+
 import './Herosection.css'
-import { NavLink } from 'react-router-dom'
+
 import Illustrate from '../assets/illustrate.png'
 
 

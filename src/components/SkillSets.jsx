@@ -1,10 +1,8 @@
-import React from 'react'
-import { MdJavascript, MdPhp } from 'react-icons/md'
-import { SiBootstrap, SiC, SiCplusplus, SiCss3, SiExpress, SiGit, SiHtml5, SiJavascript, SiMongodb, SiNodedotjs, SiOracle, SiPhp, SiPostman, SiReact, SiRender, SiVsco, SiVscodium, SiXampp } from 'react-icons/si'
+
+import {  SiCplusplus, SiCss3, SiExpress, SiGit, SiHtml5, SiJavascript, SiMongodb, SiNodedotjs, SiOracle, SiPhp, SiPostman, SiReact, SiRender,  SiXampp } from 'react-icons/si'
 import './Skillsets.css'
-import { DiJava, DiJavascript, DiNodejs, DiPhp, DiVisualstudio } from 'react-icons/di'
-import { RiJavascriptFill } from 'react-icons/ri'
-import { VscCode } from 'react-icons/vsc'
+import { DiJava} from 'react-icons/di'
+
 import { BiLogoChrome, BiLogoGithub, BiLogoNetlify, BiLogoVisualStudio } from 'react-icons/bi'
 
 
