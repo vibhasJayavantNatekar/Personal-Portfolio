@@ -3,12 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.about-wrapper{
-   
-    /* border: 5px solid green; */
 
-
-}
 .about-wrapper .about-container{
     display: flex;
     flex-direction: row;
@@ -38,9 +33,7 @@
     line-height: 1.8;
     font-style: oblique;
 }
- .profile-avatar{
  
-} 
 
 
 @media screen and (max-width: 770px) {

@@ -48,6 +48,7 @@
 }
 
 .hero-container .hero-right  .btn-container button {
+    color: white;
     padding: .8rem;
     margin-right: 2rem;
     width: 40%;
