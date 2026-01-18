@@ -1,7 +1,8 @@
 
 
 import './Resume.css'
-import Resumepdf from '../assets/resume.jpg'
+import Resumepdf from '../assets/VIBHAS_NATEKAR.pdf'
+ import Resumeimg from '../assets/resume.jpg'
 
 const Resume = () => {
   return (
@@ -23,7 +24,7 @@ const Resume = () => {
           </div>
 
           <div className="resume-preview">
-            <img src={Resumepdf} alt="" className='resume-img' />
+            <img src={Resumeimg} alt="" className='resume-img' />
 
           </div>
 
