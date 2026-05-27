@@ -1,9 +1,10 @@
 
-import {  SiCplusplus, SiCss3, SiExpress, SiGit, SiHtml5, SiJavascript, SiMongodb, SiNodedotjs, SiOracle, SiPhp, SiPostman, SiReact, SiRender,  SiXampp } from 'react-icons/si'
+import {  SiAndroidstudio, SiCplusplus, SiCss3, SiExpress, SiGit, SiHtml5, SiJavascript, SiMongodb, SiNodedotjs, SiOracle, SiPhp, SiPostman, SiReact, SiRender,  SiXampp } from 'react-icons/si'
 import './Skillsets.css'
-import { DiJava} from 'react-icons/di'
+import { DiJava, DiPhp, DiPython, DiVisualstudio} from 'react-icons/di'
 
 import { BiLogoChrome, BiLogoGithub, BiLogoNetlify, BiLogoVisualStudio } from 'react-icons/bi'
+import { FcAndroidOs } from 'react-icons/fc'
 
 
 const SkillSets = () => {
@@ -35,6 +36,8 @@ const SkillSets = () => {
                      
 
                       <h2 className='skil-badge'>  <span><DiJava/></span> Java</h2>
+                      <h2 className='skil-badge' > <span> <DiPython/> </span> Python </h2>
+                      <h2 className='skil-badge'> <span> <DiPhp/> </span> PHP </h2>
                       <h2 className='skil-badge'>  <span><SiGit/></span>Git</h2>
 
                       <h2 className='skil-badge'>  <span><SiPostman/></span> Postman</h2>
@@ -57,6 +60,8 @@ const SkillSets = () => {
                       <h2 className='skil-badge'>  <span><BiLogoNetlify/></span> Netlify </h2>
                       <h2 className='skil-badge'>  <span><SiRender/></span>Render </h2>
                       <h2 className='skil-badge'>  <span><SiXampp/></span>Xampp </h2>
+                      <h2 className='skil-badge'> <span><DiVisualstudio/></span> Visual Studio </h2>
+                      <h2 className='skil-badge'> <span> <SiAndroidstudio/>  </span> Android Studio </h2>
 
 
 
