@@ -2,7 +2,7 @@
 
 import './Resume.css'
 import Resumepdf from '../assets/VIBHAS_NATEKAR.pdf'
- import Resumeimg from '../assets/resume.jpg'
+ import Resumeimg from '../assets/Resume.png'
 
 const Resume = () => {
   return (
