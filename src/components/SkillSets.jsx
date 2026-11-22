@@ -18,6 +18,15 @@ const SkillSets = () => {
                 <h1 className='skill-heading' ><span className='name'>Skillsets</span></h1>
                 <div className="skill-container">
                      
+                     <h2 className='skil-badge' ><span></span> <span>Gen AI</span> </h2>
+                     <h2 className='skil-badge' ><span></span> <span>LLM</span> </h2>
+                     <h2 className='skil-badge' ><span></span> <span>RAG</span> </h2>
+                     <h2 className='skil-badge' ><span></span> <span>LLM</span> </h2>
+                     <h2 className='skil-badge' ><span></span> <span>AI Integration</span> </h2>
+                     
+
+
+
                     <h2 className='skil-badge'>  <span><SiHtml5/></span> HTML</h2>
                     <h2 className='skil-badge'>  <span><SiCss3/></span> CSS</h2>
 
