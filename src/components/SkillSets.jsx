@@ -4,7 +4,7 @@ import './Skillsets.css'
 import { DiJava, DiPhp, DiPython, DiVisualstudio} from 'react-icons/di'
 
 import { BiLogoChrome, BiLogoGithub, BiLogoNetlify, BiLogoVisualStudio } from 'react-icons/bi'
-import { FcAndroidOs } from 'react-icons/fc'
+import { Agent ,Llm  } from '@iconmind/react'
 
 
 const SkillSets = () => {
@@ -18,8 +18,8 @@ const SkillSets = () => {
                 <h1 className='skill-heading' ><span className='name'>Skillsets</span></h1>
                 <div className="skill-container">
                      
-                     <h2 className='skil-badge' ><span><SiHtml5/></span> <span>Gen AI</span> </h2>
-                     <h2 className='skil-badge' ><span></span> <span>LLM</span> </h2>
+                     <h2 className='skil-badge' ><span><Agent/></span> <span>Gen AI</span> </h2>
+                     <h2 className='skil-badge' ><span><Llm/></span> <span>LLM</span> </h2>
                      <h2 className='skil-badge' ><span></span> <span>RAG</span> </h2>
                      <h2 className='skil-badge' ><span></span> <span>LLM</span> </h2>
                      <h2 className='skil-badge' ><span></span> <span>AI Integration</span> </h2>
