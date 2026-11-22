@@ -1,7 +1,7 @@
 
 
 import './Resume.css'
-import Resumepdf from '../assets/Vibhas_Natekar_Resume'
+import Resumepdf from '../assets/Vibhas_Natekar_Resume.pdf'
  import Resumeimg from '../assets/Resume.png'
 
 const Resume = () => {
